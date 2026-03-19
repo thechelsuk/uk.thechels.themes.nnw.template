@@ -18,6 +18,10 @@ Locally, there is an AI generated blog post in '/test/test.html' that you can us
 
 ## Building
 
+Ensure you have updated the metadata in `Info.plist` to reflect your theme's name, author, and description. This information will be displayed in NetNewsWire when users view your theme. Remember to increment the version number each time you make significant changes to your theme to help users identify updates. The number is included in the generated Zip file name when you build the theme.
+
+Make sure the `Makefile` is configured correctly with the appropriate name for your theme.
+
 Run Makefile to build the theme: `make` then follow the instructions below depending on your target platform.
 
 ### MacOS
