@@ -18,13 +18,7 @@ Locally, there is an AI generated blog post in '/test/test.html' that you can us
 
 ## Building
 
-To build follow these steps:
-
-1. Run Makefile to build the theme:
-
-   ```bash
-   make build
-   ```
+Run Makefile to build the theme: `make` then follow the instructions below depending on your target platform.
 
 ### MacOS
 
